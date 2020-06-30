@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Educate - Learn In The Clouds</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+<!--  Start home section -->
+	<div id="home">
+		<!-- NAVBAR DARK AND BG DARK GIVES DARK BG -->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="index.html">
+				<img src="">
+			</a>
+		</nav>
+	</div>
+<!--  End home section -->
+
+<!--- Start Course Section -->
+<div id="course" class="offset">
+
+<div class="col-12 narrow text-center">
+	<h1>Nuno Theme Course</h1>
+	<p class="lead">Learn Bootstrap by creating an advanced Bootstrap 4 Responsive Website Template from scratch, with no steps skipped!</p>
+	<a class="btn btn-secondary btn-md" href="https://w3newbie.com/courses" target="_blank">Nuno Theme Course</a>
+</div>
+
+</div>
+<!--- End Course Section -->
+
+<!--  Start Portfolio section -->
+	<div id="portfolio">
+		
+	</div>
+<!--  End Portfolio section -->
+
+<!--  Start Team section -->
+	<div id="team">
+	
+	</div>
+<!--  End Team section -->
+
+<!--  Start Contact section -->
+	<div id="contact">
+		
+	</div>
+<!--  End Contact section -->
+
+<!--
+	FORM ADDED FOR FIREBASE CRUD (LATER USE - BACKEND)
+<form>
+	<label for="userId">User ID</label><br>
+	<input type="text" name="userId" id="userId"><br>
+	<label for="firstname">First Name</label><br>
+	<input type="text" name="firstname" id="firstname"><br>
+	<label for="lastname">Last Name</label><br>
+	<input type="text" name="lastname" id="lastname"><br>
+	<label for="age">Age</label><br>
+	<input type="number" name="age" id="age"><br>
+	<button id="addBtn" class="btn waves-effect waves-light">ADD</button>
+	<button id="updateBtn" class="btn waves-effect waves-light">UPDATE</button>
+
+</form>
+-->
+
+<!--- Script Source Files -->
+<!--For Firestore-->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBfai9BNDeWsxd00efwHRlZD4yn7SP2abI",
+    authDomain: "educatecloudofficial-a06d0.firebaseapp.com",
+    databaseURL: "https://educatecloudofficial-a06d0.firebaseio.com",
+    projectId: "educatecloudofficial-a06d0",
+    storageBucket: "educatecloudofficial-a06d0.appspot.com",
+    messagingSenderId: "2006364592",
+    appId: "1:2006364592:web:0e19ffce3221d5f531e675",
+    measurementId: "G-M1PLLWGPP7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  var db = firebase.firestore();
+</script>
+<script src="/__/firebase/init.js"></script>
+<!--For Firestore (End)-->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.6.1/js/all.js"></script>
+<script src="js/functions.js"></script>
+<!--- End of Script Source Files -->
+
+</body>
+</html>
+
+
+
